@@ -1,3 +1,19 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.article {
+	border-bottom: solid 1px #CCC; 
+	padding: 5px 0;
+} 
+.article p {
+	margin: 4px 0;
+}
+.article.hover {
+	background: #FAFAFA;
+}
+.article .admin {
+	display:none;
+}  
+.article.hover .admin {
+	display:inline;
+}
